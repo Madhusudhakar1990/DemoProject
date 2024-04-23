@@ -77,7 +77,6 @@ public class MainTestClass extends Base {
 	{
 		gp = new GuidePage(driver);
 		
-		
 		gp.clickGuideIcon();
 		
 		System.out.println("click on guide link");

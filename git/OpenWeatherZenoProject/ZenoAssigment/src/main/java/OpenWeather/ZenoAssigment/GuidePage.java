@@ -29,7 +29,11 @@ public class GuidePage extends Base
 	
 	public void clickGuideIcon()
 	{
+		waitForElement(guideLink);
+		
 		guideLink.click();
 	}
+	
+	
 
 }
